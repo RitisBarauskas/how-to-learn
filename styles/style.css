@@ -38,7 +38,7 @@
 .header__title {
   width: 730px;
   align-self: center;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   z-index: 9;
   line-height: 96px;
   font-size: 102px;
@@ -46,6 +46,7 @@
 }
 
 .header__subtitle {
+  margin: 0;
   width: 388px;
   position: absolute;
   left: 64px;
@@ -96,6 +97,7 @@
 }
 
 .two-columns__brief {
+  margin: 0;
   width: 175px;
   color: #2f80ed;
   line-height: 1.2;
